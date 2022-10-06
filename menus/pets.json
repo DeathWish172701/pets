@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle pets",
+        "command": "pets:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "pets",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "pets:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
